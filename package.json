@@ -1,0 +1,19 @@
+{
+  "name": "finalexam",
+  "version": "1.0.0",
+  "description": "Final Exam ",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch scss:css --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tarangrana"
+  },
+  "author": "Tarang Rana",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.86.3"
+  }
+}
