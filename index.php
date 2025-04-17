@@ -2,9 +2,10 @@
 include("./includes/header.php");
 ?>
 
+<body>
 <form method="POST" action="submit.php">
-    <label>Enter a message (max 50 characters):</label><br>
-    <input type="text" name="message" maxlength="50" required><br><br>
+    <h2>Enter a message (max 50 characters):</h2>
+    <input type="text" name="message" maxlength="50" required>
     <button type="submit">Submit</button>
 </form>
 
@@ -12,4 +13,5 @@ include("./includes/header.php");
 
 <a href="showAll.php">Show all records</a>
 
-<?php include("./includes/footer.php"); ?>
+</body>
+</html>
